@@ -4,19 +4,6 @@ import { getRandomColor } from './randomColorGenerator.js'
 
 
 class Child extends Component {
-  constructor(){
-    super()
-    this.state ={
-      color: "#FFF"
-    }
-  }
-
-  // changeColor = (props) => {
-  //   this.setState({
-  //     color: props.random
-  //   })
-  // }
-
   render() {
     console.log(this.props)
     return (
